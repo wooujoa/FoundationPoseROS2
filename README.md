@@ -17,6 +17,7 @@ The main advantages to the previous repositories and [isaac_ros_foundationpose](
 
 Furthermore, it provides an interactive GUI for object model-to-mask assignment for end-to-end multi-pose estimation and tracking.
 
+[![Star History Chart](https://api.star-history.com/svg?repos=ammar-n-abbas/FoundationPoseROS2&type=Date)](https://star-history.com/#ammar-n-abbas/FoundationPoseROS2&Date)
 
 ## Prerequisites
 
