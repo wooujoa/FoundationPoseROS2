@@ -18,7 +18,7 @@ gdown --folder https://drive.google.com/drive/folders/12Te_3TELLes5cim1d7F7EBTwU
 cd ${PROJ_ROOT}/FoundationPose && git clone https://github.com/pybind/pybind11 && \
     cd pybind11 && git checkout v2.10.0 && \
     mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DPYBIND11_INSTALL=ON -DPYBIND11_TEST=OFF && \
-    make -j6 && make install
+    sudo make -j6 && sudo make install
 
 # Install Eigen
 cd ${PROJ_ROOT}/FoundationPose && wget https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz && \
@@ -27,7 +27,7 @@ cd ${PROJ_ROOT}/FoundationPose && wget https://gitlab.com/libeigen/eigen/-/archi
     mkdir build && \
     cd build && \
     cmake .. && \
-    make install
+    sudo make install
 
 # Clone and install nvdiffrast
 cd ${PROJ_ROOT}/FoundationPose && git clone https://github.com/NVlabs/nvdiffrast && \
@@ -37,7 +37,7 @@ cd ${PROJ_ROOT}/FoundationPose && git clone https://github.com/NVlabs/nvdiffrast
 cd ${PROJ_ROOT}/FoundationPose/mycpp/ && \
 rm -rf build && mkdir -p build && cd build && \
 cmake .. && \
-make -j$(nproc)
+sudo make -j$(nproc)
 
 # Install mycuda
 cd ${PROJ_ROOT}/FoundationPose/bundlesdf/mycuda && \
