@@ -17,8 +17,6 @@ The main advantages to the previous repositories and [isaac_ros_foundationpose](
 
 Furthermore, it provides an interactive GUI for object model-to-mask assignment for end-to-end multi-pose estimation and tracking.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ammar-n-abbas/FoundationPoseROS2&type=Date)](https://star-history.com/#ammar-n-abbas/FoundationPoseROS2&Date)
-
 ## Prerequisites
 
 - **Ubuntu**
@@ -171,6 +169,7 @@ conda activate foundationpose_ros && source /opt/ros/<ROS_DISTRO>/setup.bash && 
     <img src="assets/pipeline.svg" alt="Algorithm Pipeline" style="width: 30%; height: auto;"/>
 </p>
 
+[![Star History Chart](https://api.star-history.com/svg?repos=ammar-n-abbas/FoundationPoseROS2&type=Date)](https://star-history.com/#ammar-n-abbas/FoundationPoseROS2&Date)
 
 ## Acknowledgement
 This project has emanated from research conducted with the financial support of the EU Commission Recovery and Resilience Facility under the Science Foundation Ireland Future Digital Challenge Grant Number 22/NCF/FD/10929.
