@@ -19,8 +19,8 @@ Furthermore, it provides an interactive GUI for object model-to-mask assignment 
 
 ## Prerequisites
 
-- **Ubuntu**
-- **ROS2**
+- **Ubuntu (20/22)**
+- **ROS2 (Foxy/Humble)**
 - **Minimum 8GB NVIDIA GPU**
 - **CUDA 12.x**
 - **Intel RealSense Camera**
